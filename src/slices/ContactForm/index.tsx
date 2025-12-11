@@ -72,19 +72,19 @@ const ContactForm = ({ slice }: ContactFormProps) => {
         Message: ${values.Message}
         `,
       };
-      const response = await sendMail(payload);
-
-      console.log("> Response:", response);
+      await sendMail(payload);
 
       notification.success({
         message: "Form submitted successfully",
+        description: "Thank you for your message. We will get back to you soon.",
       });
       setSubmitted(true);
-
-      // Optional: Handle success (e.g., show success message)
     } catch (error) {
       console.error("Error submitting form:", error);
-      // Optional: Handle error (e.g., show error message)
+      notification.error({
+        message: "Failed to submit form",
+        description: "There was an error sending your message. Please try again later.",
+      });
     } finally {
       setSubmitting(false);
     }
