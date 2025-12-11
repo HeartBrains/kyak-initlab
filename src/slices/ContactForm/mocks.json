@@ -1,0 +1,45 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"form_field": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "flag",
+									"type": "Text"
+								}
+							],
+							[
+								"form_type",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Email",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "lost",
+				"type": "Text"
+			},
+			"submit_button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "crop",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,61 @@
+{
+  "id": "contact_form",
+  "type": "SharedSlice",
+  "name": "ContactForm",
+  "description": "ContactForm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "Contact"
+          }
+        },
+        "form_field": {
+          "type": "Group",
+          "config": {
+            "label": "Form field",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label",
+                  "placeholder": "Name"
+                }
+              },
+              "form_type": {
+                "type": "Select",
+                "config": {
+                  "label": "Form type",
+                  "placeholder": "Text/Multiline/Email",
+                  "options": [
+                    "Text",
+                    "Multiline",
+                    "Email"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "submit_button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit button label",
+            "placeholder": "Submit"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

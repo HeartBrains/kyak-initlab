@@ -1,0 +1,98 @@
+{
+  "id": "activity_summary",
+  "type": "SharedSlice",
+  "name": "ActivitySummary",
+  "description": "ActivitySummary",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "event_types": {
+          "type": "Group",
+          "config": {
+            "label": "Event types",
+            "repeat": true,
+            "fields": {
+              "event_type": {
+                "type": "Select",
+                "config": {
+                  "label": "Event type",
+                  "placeholder": "Select one",
+                  "options": [
+                    "Event",
+                    "Residency",
+                    "Workshop"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "We don't have many days",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "James Gallego Olivo",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "date_and_time": {
+          "type": "StructuredText",
+          "config": {
+            "label": "date and time",
+            "placeholder": "13 Aug 2024, 16:30",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "main_image": {
+          "type": "Image",
+          "config": {
+            "label": "Main image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "type": {
+          "type": "Select",
+          "config": {
+            "label": "Type",
+            "placeholder": "Upcoming/Current/Past",
+            "options": [
+              "Upcoming",
+              "Current",
+              "Past"
+            ]
+          }
+        },
+        "activity_detail": {
+          "type": "Link",
+          "config": {
+            "label": "Activity Detail",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "activity_detail"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

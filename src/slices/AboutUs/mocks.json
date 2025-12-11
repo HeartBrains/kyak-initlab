@@ -1,0 +1,25 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "motion",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex mollit aliquip commodo minim consequat mollit ad et irure. Nostrud ullamco officia ad labore excepteur."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

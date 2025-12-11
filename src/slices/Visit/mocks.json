@@ -1,0 +1,34 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"address_and_opening_hours": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Dolore excepteur ullamco sit eiusmod adipisicing qui cillum dolore culpa. In laboris ex nulla proident amet cupidatat do adipisicing officia non elit et."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "lose",
+				"type": "Text"
+			},
+			"google_maps_embed_src": {
+				"key": "347498de-13b1-45dd-bdc0-4a0a32ac7bc8",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "machinery"
+				}
+			}
+		},
+		"items": []
+	}
+]

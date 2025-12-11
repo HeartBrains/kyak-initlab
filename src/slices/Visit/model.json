@@ -1,0 +1,46 @@
+{
+  "id": "visit",
+  "type": "SharedSlice",
+  "name": "Visit",
+  "description": "Visit",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "Visit"
+          }
+        },
+        "address_and_opening_hours": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Address and opening hours",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "google_maps_embed_src": {
+          "type": "Link",
+          "config": {
+            "label": "Google Maps embed src",
+            "placeholder": "https://www.google.com/maps/embed?pb=...",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit occaecat exercitation esse cillum. Laborum sit veniam dolore aute veniam id dolor mollit sunt dolor nisi."
+						}
+					}
+				]
+			},
+			"subtitle": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Culpa fugiat ipsum aute laboris in nostrud consectetur anim sint ad id. Fugiat eiusmod cillum sunt exercitation officia."
+						}
+					}
+				]
+			},
+			"date_and_time": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Do aute et eu enim officia sunt commodo laboris pariatur ad nulla fugiat sunt eiusmod reprehenderit. Ea laborum culpa tempor exercitation pariatur mollit sit eiusmod pariatur est."
+						}
+					}
+				]
+			},
+			"main_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+					"width": 4160,
+					"height": 3120
+				},
+				"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+				"width": 4160,
+				"height": 3120,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"type": {
+				"__TYPE__": "FieldContent",
+				"value": "Upcoming",
+				"type": "Select"
+			},
+			"activity_detail": {
+				"key": "9c859026-f624-4753-a72a-38d309aff24d",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"event_types": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"event_type",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Event",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

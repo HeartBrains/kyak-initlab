@@ -1,0 +1,77 @@
+{
+  "id": "exhibition_summary",
+  "type": "SharedSlice",
+  "name": "ExhibitionSummary",
+  "description": "ExhibitionSummary",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title of Exhibition",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "Subtitle of Exhibition",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "date_and_time": {
+          "type": "StructuredText",
+          "config": {
+            "label": "date and time",
+            "placeholder": "12 Jan - 10 Mar 2024",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "main_image": {
+          "type": "Image",
+          "config": {
+            "label": "Main image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "type": {
+          "type": "Select",
+          "config": {
+            "label": "Type",
+            "placeholder": "Upcoming/Current/Past",
+            "options": [
+              "Upcoming",
+              "Current",
+              "Past"
+            ]
+          }
+        },
+        "exhibition_detail": {
+          "type": "Link",
+          "config": {
+            "label": "Exhibition Detail",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "exhibition_detail"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
