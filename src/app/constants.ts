@@ -29,7 +29,7 @@ export type ActivityNameType = (typeof ACTIVITIES)[keyof typeof ACTIVITIES];
 export type AboutNameType = (typeof ABOUT)[keyof typeof ABOUT];
 
 // Others
-export const TICKETS_LINK = "https://buytickets.at/khaoyaiart/1537984/share/541b233115860daed3e7c8da32d1176b";
+export const TICKETS_LINK = "https://www.tickettailor.com/events/khaoyaiart";
 
 // Cookies
 export const COOKIE_FROM_HOME = "fromHome";
